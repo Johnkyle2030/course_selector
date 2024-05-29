@@ -1,0 +1,157 @@
+/* Style for h2 */
+h2 {
+    color: green; 
+}
+
+/* Style for h1 */
+h1 {
+    text-align: center;
+    color: green;
+    margin-top: 50px; /* Add margin from top */
+}
+
+table, .course-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td, .course-table th, .course-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th, .course-table th {
+    background-color: #f2f2f2;
+}
+
+.add-btn, .course-table .add-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.delete-btn, .course-table .delete-btn {
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.update-btn, .course-table .update-btn {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.add-course-btn {
+    position: fixed;
+    top: 40px;
+    right: 10px;  
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /*Add table code*/
+  body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label, input[type="text"], input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+/* css of message to be displayed*/
+
+    .message-container {
+        position: relative;
+        top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; /* Adjust the width as needed */
+        background-color: #f0f0f0; /* Light gray background */
+        border: 1px solid #ccc; /* Gray border */
+        padding: 10px; /* Padding around the message */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+/*Admin Color page*/
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    .form-group input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .form-group a {
+        color: #007bff;
+        text-decoration: none;
+        margin-left: 10px;
+    }

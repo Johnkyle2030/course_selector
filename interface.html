@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form">
+            <button type="button" class="social-button facebook">Facebook</button>
+            <button type="button" class="social-button twitter">Twitter</button>
+            <input type="text" placeholder="Email or Phone" required>
+            <input type="password" placeholder="Password" required>
+            <div class="remember-me-container">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <button type="submit">Login</button>
+            <div class="signup-container">
+                Not a member? <a href="#" id="signup-link">Signup now</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="signup-modal hidden">
+        <form class="signup-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" placeholder="D.O.B" required>
+            <input type="text" placeholder="County Born" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('signup-link').addEventListener('click', function(event){
+            event.preventDefault();
+            document.querySelector('.signup-modal').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
+
